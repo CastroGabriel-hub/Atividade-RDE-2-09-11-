@@ -1,0 +1,21 @@
+programa {
+	
+	/* a. Faça um programa que calcule quantos meses faltam para acabar 2021; */
+		
+	inclua biblioteca Calendario 
+	
+	funcao inicio() {
+		
+        inteiro mesAtual = Calendario.mes_atual()
+	    inteiro mesesParaAcabar = 12 - mesAtual
+	    
+		  se(mesesParaAcabar > 1){
+		    escreva("Faltam ", mesesParaAcabar, " meses para 2020 acabar.")
+		  }
+		    
+	    se(mesesParaAcabar < 2){
+		    escreva("Falta ", mesesParaAcabar, " mes para 2020 acabar.")
+		  }
+		
+	}
+}

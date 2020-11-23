@@ -1,0 +1,13 @@
+programa {
+	funcao inicio() {
+		
+		inteiro soma = 0, porcent = 0, desconto = 0
+		
+		soma = 800 + 1200
+		porcent = (soma * 30)/100
+		desconto = soma - porcent
+		
+		escreva("O valor dos itens Golpeadores Melosos + Guarda da moita com 30% de desconto é de ", desconto, " V-bucks!")
+	
+  }
+}

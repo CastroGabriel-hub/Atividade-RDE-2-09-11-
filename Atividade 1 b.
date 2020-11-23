@@ -1,0 +1,21 @@
+programa {
+	
+	/* b. Escreva outro programa que calcule a quantidade de dias que faltam para o ano acabar; */
+		
+	inclua biblioteca Calendario 
+	
+	funcao inicio() {
+		
+        inteiro mesAtual = Calendario.mes_atual()
+        inteiro diaAtual = Calendario.dia_mes_atual()	   
+	    
+	    
+	    inteiro diasParaAcabarMes = 30 - diaAtual
+	    inteiro mesesParaAcabar = 12 - mesAtual
+	    
+	    inteiro diasParaAcabarAno = diasParaAcabarMes + (mesesParaAcabar * 30)
+	    
+	    escreva("Faltam ", diasParaAcabarAno, " dias para acabar o ano.")
+		
+	}
+}

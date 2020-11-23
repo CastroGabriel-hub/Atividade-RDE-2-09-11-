@@ -1,5 +1,10 @@
 programa {
 	funcao inicio() {
+	/*
+	a. Escreva um algoritmo que some o valor dos dois
+	itens que aparecem nas figuras ao lado e mostre
+	o resultado em v-bucks.
+	*/
 	
 	inteiro soma
 	soma = 800 + 1200

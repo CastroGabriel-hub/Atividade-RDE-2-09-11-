@@ -1,0 +1,10 @@
+programa {
+	funcao inicio() {
+	
+	inteiro soma
+	soma = 800 + 1200
+	
+	escreva("O valor dos itens Golpeadores Melosos + Guarda da Moita é:", soma ," V-bucks")
+	
+	}
+}
